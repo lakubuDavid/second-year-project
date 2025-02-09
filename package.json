@@ -1,0 +1,17 @@
+{
+  "name": "second-year-project",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "zod": "^3.24.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "include": [
+    "apps/**/*",
+    "shared/**/*"
+  ],
+  "type": "module"
+}
